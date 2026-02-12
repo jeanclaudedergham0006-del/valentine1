@@ -5,14 +5,14 @@ import { Heart, Camera } from 'lucide-react';
 const Gallery: React.FC = () => {
   // Mapping the 8 uploaded images with romantic captions
   const galleryImages = [
-    { id: 1, url: './image/WhatsApp Image 2026-02-01 at 4.08.00 PM.jpeg', caption: 'Sweet Devotion', arabic: 'عشق وحنين' },
-    { id: 2, url: './image/WhatsApp Image 2026-02-01 at 4.08.00 PM (1).jpeg', caption: 'Our Reflection', arabic: 'جمال روحنا' },
-    { id: 3, url: './image/WhatsApp Image 2026-02-01 at 4.08.00 PM (2).jpeg', caption: 'Deep Connection', arabic: 'مودة ورحمة' },
-    { id: 4, url: './image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg', caption: 'Peaceful Moments', arabic: 'لحظات هادئة' },
-    { id: 5, url: './image/WhatsApp Image 2026-02-01 at 6.48.53 PM (1).jpeg', caption: 'Tender Love', arabic: 'حنان دافئ' },
-    { id: 6, url: './image/WhatsApp Image 2026-02-01 at 6.48.53 PM (2).jpeg', caption: 'Always Close', arabic: 'دائماً بالقرب' },
-    { id: 7, url: './image/WhatsApp Image 2026-02-01 at 6.48.53 PM (3).jpeg', caption: 'Style & Grace', arabic: 'تألق وأناقة' },
-    { id: 8, url: './image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg', caption: 'Our Grand Story', arabic: 'حكايتنا الكبيرة' },
+    { id: 1, url: '/image/WhatsApp Image 2026-02-01 at 4.08.00 PM.jpeg', caption: 'Sweet Devotion', arabic: 'عشق وحنين' },
+    { id: 2, url: '/image/WhatsApp Image 2026-02-01 at 4.08.00 PM (1).jpeg', caption: 'Our Reflection', arabic: 'جمال روحنا' },
+    { id: 3, url: '/image/WhatsApp Image 2026-02-01 at 4.08.00 PM (2).jpeg', caption: 'Deep Connection', arabic: 'مودة ورحمة' },
+    { id: 4, url: '/image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg', caption: 'Peaceful Moments', arabic: 'لحظات هادئة' },
+    { id: 5, url: '/image/WhatsApp Image 2026-02-01 at 6.48.53 PM (1).jpeg', caption: 'Tender Love', arabic: 'حنان دافئ' },
+    { id: 6, url: '/image/WhatsApp Image 2026-02-01 at 6.48.53 PM (2).jpeg', caption: 'Always Close', arabic: 'دائماً بالقرب' },
+    { id: 7, url: '/image/WhatsApp Image 2026-02-01 at 6.48.53 PM (3).jpeg', caption: 'Style & Grace', arabic: 'تألق وأناقة' },
+    { id: 8, url: '/image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg', caption: 'Our Grand Story', arabic: 'حكايتنا الكبيرة' },
   ];
 
   return (
