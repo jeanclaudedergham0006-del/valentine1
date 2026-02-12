@@ -1,0 +1,8 @@
+
+{
+  "name": "Sweet Valentine Heartbeat",
+  "description": "A modern, romantic web experience for Valentine's Day featuring AI-generated love letters, a gift QR code section, and elegant animations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
