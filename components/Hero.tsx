@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({ onStart }) => {
         <div className="absolute -inset-4 bg-gradient-to-r from-rose-200 via-pink-100 to-rose-200 rounded-[3rem] blur-xl opacity-50 group-hover:opacity-100 transition duration-1000"></div>
         <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-[2.5rem] overflow-hidden border-8 border-white shadow-2xl rotate-3 group-hover:rotate-0 transition-transform duration-700">
           <img 
-            src="../image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg" 
+            src="/image/WhatsApp Image 2026-02-01 at 6.48.53 PM.jpeg" 
             alt="The Happy Couple" 
             className="w-full h-full object-cover"
           />
